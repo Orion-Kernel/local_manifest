@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Remotes -->
+ <remote name="s" 
+         fetch="https://github.com/Orion-Kernel/" />
+ <remote name="line" 
+         fetch="https://github.com/LineageOS/" />
    
-        <remote  name="s" fetch="https://github.com/Orion-Kernel" />
 
- <!-- Trees -->
-
-                <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="s" revision="12.1-wip" />
-                <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="s" revision="12.1-wip" />
-                <project path="vendor/xiaomi" name="vendor_xiaomi_beryllium" remote="s" revision="12.1-wip" />
-                <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="s" revision="s-caf" />
  
+ <!-- Trees -->
+  
+ <!-- Device Tree -->
+ <project path="device/xiaomi/beryllium" 
+          name="device_xiaomi_beryllium.git" 
+          remote="s" 
+          revision="12.1-wip" />
+ <!-- Common Tree -->
+ <project path="device/xiaomi/sdm845-common" 
+          name="device_xiaomi_sdm845-common.git" 
+          remote="s" 
+          revision="12.1-wip" />
+ <!-- Vendor Tree -->
+ <project path="vendor/xiaomi" 
+          name="vendor_xiaomi.git" 
+          remote="s" 
+          revision="12.1-wip" />
+<!-- hardware Tree -->
+ <project path="hardware/xiaomi" 
+          name="android_hardware_xiaomi.git" 
+          remote="line" 
+          revision="lineage-19.1" />
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sdm845" 
+          name="kernel_xiaomi_sdm845.git" 
+          remote="s" 
+          revision="s-caf" />
+
+
 </manifest>
