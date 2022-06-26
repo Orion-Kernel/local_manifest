@@ -41,5 +41,10 @@
           name="Bsdk_Sourav_frameworks_base.git" 
           remote="sajidshahriar72543" 
           revision="twelve" />
+  <!-- hardware Tree -->
+ <project path="hardware/xiaomi" 
+          name="android_hardware_xiaomi.git" 
+          remote="LineageOS" 
+          revision="lineage-19.1" />
 
 </manifest>
