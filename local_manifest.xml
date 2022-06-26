@@ -19,12 +19,12 @@
  <!-- Device Tree -->
  <project path="device/xiaomi/beryllium" 
           name="device_xiaomi_beryllium.git" 
-          remote="Orion462" 
+          remote="Orion" 
           revision="12.1-wip" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common.git" 
-          remote="Orion462" 
+          remote="Orion" 
           revision="12.1-wip" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
@@ -44,7 +44,7 @@
   <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="LineageOS" 
-          revision="lineage-19.0" />
+          remote="Arrow" 
+          revision="Arrow-12.1" />
 
 </manifest>
