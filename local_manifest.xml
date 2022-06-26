@@ -38,9 +38,9 @@
           revision="twelve" />
  <!-- FWB -->
  <project path="frameworks/base" 
-          name="Bsdk_Sourav_frameworks_base.git" 
-          remote="sajidshahriar72543" 
-          revision="twelve" />
+          name="Android_frameworks_base.git" 
+          remote="Arrow" 
+          revision="Arrow-12.1" />
   <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
