@@ -7,8 +7,6 @@
  <remote name="line" 
          fetch="https://github.com/LineageOS/" />
    
-
- 
  <!-- Trees -->
   
  <!-- Device Tree -->
