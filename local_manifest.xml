@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+ <remote name="sajidshahriar72543" 
+         fetch="https://github.com/sajidshahriar72543" />
+ <remote name="PainKiller3" 
+         fetch="https://github.com/PainKiller3" />
+ <remote name="ArrowOS-Devices" 
+         fetch="https://github.com/ArrowOS-Devices" />
+ <remote name="LineageOS" 
+         fetch="https://github.com/LineageOS" />
+
+ <!-- Removals -->
+ <remove-project name="android_frameworks_base" />
+
+ <!-- Trees -->
+  
+ <!-- Device Tree -->
+ <project path="device/xiaomi/beryllium" 
+          name="device_xiaomi_beryllium.git" 
+          remote="sajidshahriar72543" 
+          revision="fuse" />
+ <!-- Common Tree -->
+ <project path="device/xiaomi/sdm845-common" 
+          name="device_xiaomi_sdm845-common.git" 
+          remote="sajidshahriar72543" 
+          revision="fuse" />
+ <!-- Vendor Tree -->
+ <project path="vendor/xiaomi" 
+          name="vendor_xiaomi.git" 
+          remote="PainKiller3"
+          revision="twelve" />
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sdm845" 
+          name="kernel_xiaomi_sdm845.git" 
+          remote="PainKiller3" 
+          revision="twelve" />
+ <!-- FWB -->
+ <project path="frameworks/base" 
+          name="Bsdk_Sourav_frameworks_base.git" 
+          remote="sajidshahriar72543" 
+          revision="twelve" />
+
+</manifest>
