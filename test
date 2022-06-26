@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   
+        <remote  name="s" fetch="https://github.com/Orion-Kernel" />
+
+ <!-- Trees -->
+
+                <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="s" revision="12.1-wip" />
+                <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="s" revision="12.1-wip" />
+                <project path="vendor/xiaomi" name="vendor_xiaomi_beryllium" remote="s" revision="12.1-wip" />
+                <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="s" revision="s-caf" />
+ 
+</manifest>
