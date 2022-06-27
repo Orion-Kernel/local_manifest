@@ -18,32 +18,32 @@
   
  <!-- Device Tree -->
  <project path="device/xiaomi/beryllium" 
-          name="device_xiaomi_beryllium.git" 
+          name="device_xiaomi_beryllium" 
           remote="Orion" 
           revision="12.1-wip" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
-          name="device_xiaomi_sdm845-common.git" 
+          name="device_xiaomi_sdm845-common" 
           remote="Orion" 
           revision="12.1-wip" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="vendor_xiaomi.git" 
+          name="vendor_xiaomi" 
           remote="Orion"
           revision="12.1-wip" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
-          name="kernel_xiaomi_sdm845.git" 
+          name="kernel_xiaomi_sdm845" 
           remote="PainKiller3" 
           revision="twelve" />
  <!-- FWB -->
  <project path="frameworks/base" 
-          name="Android_frameworks_base.git" 
+          name="Android_frameworks_base" 
           remote="ArrowOS-Devices" 
           revision="Arrow-12.1" />
   <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
-          name="android_hardware_xiaomi.git" 
+          name="android_hardware_xiaomi" 
           remote="Arrow" 
           revision="Arrow-12.1" />
 
