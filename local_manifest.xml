@@ -6,10 +6,10 @@
          fetch="https://github.com/Orion462" />
  <remote name="PainKiller3" 
          fetch="https://github.com/PainKiller3" />
- <remote name="ArrowOS-Devices" 
-         fetch="https://github.com/ArrowOS-Devices" />
- <remote name="crdr"
+<remote name="crdr"
          fetch="https://github.com/crdroidandroid" />
+
+
 
  <!-- Removals -->
  <remove-project name="android_frameworks_base" />
@@ -20,7 +20,7 @@
  <project path="device/xiaomi/beryllium" 
           name="android_device_xiaomi_beryllium"r
           remote="Orion" 
-          revision="11" />
+          revision="11.0" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common" 
@@ -28,8 +28,8 @@
           revision="11" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="proprietary_vendor_xiaomi_beryllium" 
-          remote="crdr"
+          name="vendor_xiaomi" 
+          remote="Orion"
           revision="11" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
@@ -40,11 +40,11 @@
  <project path="frameworks/base" 
           name="Android_frameworks_base" 
           remote="crdr" 
-          revision="11" />
+          revision="11.0" />
   <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi" 
-          remote="crdr" 
-          revision="11" />
+          remote="Orion" 
+          revision="lineage-18.1" />
 
 </manifest>
